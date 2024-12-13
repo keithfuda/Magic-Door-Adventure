@@ -1,0 +1,53 @@
+body {
+
+    font-family: 'IGOR';
+    text-shadow: 5px 10px 0px rgba(0, 0, 0, 1);
+    background-image: url('asylum.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+button {
+
+    transition: .2s ease;
+    border: none;
+    float: left;
+    margin-left: 5px;
+    margin-top: 50px;
+    background: none;
+}
+
+button:hover {
+
+    transform: scale(1.2);
+
+}
+
+img {
+
+    height: 350px;
+
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 75px;
+
+}
+
+p {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+@font-face { 
+    font-family: 'IGOR'; 
+    src: url('Chalkaholic\ DEMO.otf'); 
+} 
